@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Creator: Briant Glasford
+Date: 11/11/2023
 
-Things you may want to cover:
+------------------------------------------------------------------------------
+-------------------------------------About------------------------------------
+------------------------------------------------------------------------------
 
-* Ruby version
+This is a demo website made to demostrate making a functional web application 
+on Ruby On Rails. For this application i choose to make a product website, 
+focusing on electronics. The admin of the website can create products that 
+they sell, edit and delete them. 
 
-* System dependencies
+------------------------------------------------------------------------------
+------------------------------Additional Feature------------------------------
+------------------------------------------------------------------------------
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The additional feature i choose to add was images to go with the product

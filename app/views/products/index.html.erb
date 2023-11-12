@@ -1,0 +1,23 @@
+
+<p style="color: green"><%= notice %></p>
+<h1>Products</h1>
+<%= link_to "New product", new_product_path, class: "bi bi-cart-plus-fill btn btn-success" %>
+  <div id="products">
+          <div class= "row">
+            <% @products.each do |product| %>
+              <%= render product %>
+              <%= link_to " Show", product, class: "bi bi-cart2 btn btn-primary"%>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    
+  </div>
+</div>
+
+
+
+
+

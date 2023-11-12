@@ -1,0 +1,32 @@
+<div class="col-sm-3">
+  <div class="card-group">
+    <div class="card" style="width: 22rem; ">
+      <div class="card-body">
+        <div class = "form-group"id="<%= dom_id product %>">
+          <p>
+            <%if product.product_image.attached?%>
+              <%= image_tag product.product_image, style: "width: 15rem; height: 11rem; display: block", class:"card-img-top"%>
+            <%end%>
+          </p>
+          <p>
+            <strong>Product name:</strong>
+            <%= product.product_name %>
+          </p>
+          <p>
+            <strong>Product date:</strong>
+            <%= product.product_date %>
+          </p>
+          <p>
+            <strong>Product price:</strong>
+            <%= product.product_price %>
+          </p>
+          <p>
+            <strong>Product sku:</strong>
+            <%= product.product_sku %>
+          </p>
+          <p>
+            <strong>Product description:</strong>
+            <%= product.product_description %>
+          </p>
+
+      

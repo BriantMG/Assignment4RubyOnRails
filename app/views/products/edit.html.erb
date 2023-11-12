@@ -1,0 +1,10 @@
+<h1>Editing product</h1>
+
+<%= render "form", product: @product %>
+
+<br>
+
+<div>
+  <%= link_to " Show", @product, class: "bi bi-cart2 btn btn-primary"%> |
+  <%= link_to " Back", products_path, class: "bi bi-arrow-left btn btn-primary"%>
+</div>
